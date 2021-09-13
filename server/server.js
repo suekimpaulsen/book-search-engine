@@ -33,6 +33,11 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use(routes);
 
+app.get('*', function (req, res) {
+  const index = path.join(__dirname, 'build', 'index.html');
+  res.sendFile(index);
+});
+
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));
 });
