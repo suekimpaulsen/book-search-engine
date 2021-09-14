@@ -8,6 +8,7 @@ SO THAT I can keep a list of books to purchase
 * [Features](#features)
 * [Technoliges Used](#technologies-used)
 * [Deployed URL](#deployed-url)
+* [Notes](#notes)
 
 ## How it works:
 - User can use the Search for Books menu by clicking the option
@@ -46,3 +47,12 @@ const typeDefs = gql`
 
 ## Deployed URL
 https://book-search-engine-mern.herokuapp.com/
+
+
+## Notes
+I had the module 21 open on the side to follow step by step for this challenge. I had encounterd many `Failed to compile` error because of the starter code. I tried not to mess up with much on the starter code, I ended up NOT including a line from the module content `const userData = Data?.me || {};`. Also, I had many `'response' is not defined` issues on componenets & pages. 
+As a student who does not like having an error, especially from the starter code, this was a very hard. However, i could learn a lot since it made me practice on reading the errors and troubleshooting it.
+### Example
+![error-from-module](./assets/screenshots/error-from-module.png)
+![error-from-starter-code](./assets/screenshots/error-from-starter-code.png)
+
